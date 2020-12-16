@@ -13,12 +13,12 @@ Zum Testen kann SwaggerUI (https://localhost:5001/swagger/index.html) verwendet 
 
 Folgende Funktionen sind im API enthalten:
 1. "GET /api/Notizen" liefert die Daten aller gespeicherten Notizen. Bei Erfolg wird der HTTP Status 200 zurückgegeben.  
-    Beispielaufruf:  
-        GET /api/Notizen HTTP/1.1  
-        Host: localhost:5001  
-    Beispielantwort(Body):  
+Beispielaufruf:  
+    GET /api/Notizen HTTP/1.1  
+    Host: localhost:5001  
+Beispielantwort(Body):  
     [  
-        {  
+        {
             "id": 1,  
             "text": "637829380",  
             "zeitstempelErfassung": "2020-12-15T23:49:41.0869179+01:00",  
