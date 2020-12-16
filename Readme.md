@@ -3,11 +3,11 @@
 Die NotizenApi ist ein Rest Service mit CRUD Funktionen für eine minimale Notizdatenverwaltung. Das Standarddatenformat des Services ist JSON. Der Service enthält mehrere HTTP Methoden, verschiedene URIs und verwendet HATEOAS (Hypermedia as the Engine of Application State). Details hierzu sind in der Methodendokumentation unten ersichtlich.
 
 Der Service ist lediglich für Testzwecke geeignet und hat bei weitem keine produktive Reife. Das bedeutet unter anderem: 
-    * Es wird keine echte Datenbank verwendet, sondern nur ein RAM Speicher für die Dauer des Prozesses.
-    * Das Logging und Exception Handling ist nicht vollständig implementiert auch wenn einige Exceptions bereits abgefangen und geloggt werden.
-    * Alle Methoden arbeiten synchron.
-    * Es wurden keine Authorisierung und keine Authentifizierung implementiert und auch sonstige Sicherheitsaspekte (z.B. Over-Posting) wurden nicht berücksichtigt.
-    * Die Meldungen an die Konsumenten sind technisch in Ordnung aber nicht ausgereift.
++ Es wird keine echte Datenbank verwendet, sondern nur ein RAM Speicher für die Dauer des Prozesses.
++ Das Logging und Exception Handling ist nicht vollständig implementiert auch wenn einige Exceptions bereits abgefangen und geloggt werden.
++ Alle Methoden arbeiten synchron.
++ Es wurden keine Authorisierung und keine Authentifizierung implementiert und auch sonstige Sicherheitsaspekte (z.B. Over-Posting) wurden nicht berücksichtigt.
++ Die Meldungen an die Konsumenten sind technisch in Ordnung aber nicht ausgereift.
      
 Zum Testen kann SwaggerUI (https://localhost:5001/swagger/index.html) verwendet werden wobei auch einschlägige Clients wie Postman möglich sind.
 
