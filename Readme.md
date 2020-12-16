@@ -1,4 +1,4 @@
-#Kurzbeschreibung der NotizenApi
+#Kurzbeschreibung der NotizenApi. Test
 
 Die NotizenApi ist ein Rest Service mit CRUD Funktionen für eine minimale Notizdatenverwaltung. Das Standarddatenformat des Services ist JSON. Der Service verwendet mehrere HTTP Methoden, verschiedene URIs und basiert auf Hypermedia as the Engine of Application State. Details hierzu sind in der Methodendokumentation unten ersichtlich.
 
